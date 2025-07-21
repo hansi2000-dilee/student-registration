@@ -1,0 +1,49 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.landing-page {
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #0555be, #08aaeb, #310596);
+  padding: 20px 10px;
+  color: white;
+}
+
+.logo {
+  width: 200px;
+}
+
+/* Carousel Section */
+.carousel-section {
+  margin-top: 0;
+}
+
+.carousel img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 10px;
+  border-radius: 10px;
+  bottom: 180px !important; /* Move the caption higher */
+}
+
+
+.carousel-caption h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.1rem;
+}
